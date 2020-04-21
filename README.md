@@ -1,4 +1,8 @@
-# Mega2560ProMini
+# Mega2560 Pro Mini
+![Mega2560 Pro Mini](https://electronics.semaf.at/media/image/product/2435/sm/mega2560-pro-mini.jpg)
+
+## Where to buy?
+You can buy it here: https://electronics.semaf.at/Mega2560-Pro-Mini
 
 ## Install to Arduino IDE
 
