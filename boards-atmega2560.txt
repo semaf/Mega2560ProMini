@@ -1,0 +1,45 @@
+##############################################################
+
+mcupro.name=RobotDyn MCU-PRO
+
+mcupro.vid.0=0x2341
+mcupro.pid.0=0x0010
+mcupro.vid.1=0x2341
+mcupro.pid.1=0x0042
+mcupro.vid.2=0x2A03
+mcupro.pid.2=0x0010
+mcupro.vid.3=0x2A03
+mcupro.pid.3=0x0042
+mcupro.vid.4=0x2341
+mcupro.pid.4=0x0210
+mcupro.vid.5=0x2341
+mcupro.pid.5=0x0242
+
+mcupro.upload.tool=avrdude
+mcupro.upload.maximum_data_size=8192
+
+mcupro.bootloader.tool=avrdude
+mcupro.bootloader.low_fuses=0xFF
+mcupro.bootloader.unlock_bits=0x3F
+mcupro.bootloader.lock_bits=0x0F
+
+mcupro.build.f_cpu=16000000L
+mcupro.build.core=arduino
+mcupro.build.variant=mcu_pro
+# default board may be overridden by the cpu menu
+mcupro.build.board=AVR_MEGA2560
+
+## RobotDyn Mega CPU w/ ATmega2560
+## -------------------------
+mcupro.menu.cpu.atmega2560=ATmega2560
+
+mcupro.menu.cpu.atmega2560.upload.protocol=wiring
+mcupro.menu.cpu.atmega2560.upload.maximum_size=253952
+mcupro.menu.cpu.atmega2560.upload.speed=115200
+
+mcupro.menu.cpu.atmega2560.bootloader.high_fuses=0xD8
+mcupro.menu.cpu.atmega2560.bootloader.extended_fuses=0xFD
+mcupro.menu.cpu.atmega2560.bootloader.file=stk500v2/stk500boot_v2_mega2560.hex
+
+mcupro.menu.cpu.atmega2560.build.mcu=atmega2560
+mcupro.menu.cpu.atmega2560.build.board=AVR_MEGA2560
